@@ -1,4 +1,5 @@
 name: "GNU Builder"
+run-name: "GNU Builder / ${{ inputs.source_sha }}"
 
 on:
   workflow_dispatch:
